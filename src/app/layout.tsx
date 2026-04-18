@@ -11,8 +11,8 @@ import { Mulish } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'SSSI | South Sudan Scholarship Initiative',
-  description: 'Connecting South Sudanese students to global education and promoting peaceful societies.',
+  title: 'SSSI | South Sudanese Students Initiative',
+  description: 'Empowering South Sudanese students through education, mentorship, and peace advocacy.',
   openGraph: {
     "title": "SSSI | Global Opportunities",
     "siteName": "South Sudan Scholarship Initiative"
