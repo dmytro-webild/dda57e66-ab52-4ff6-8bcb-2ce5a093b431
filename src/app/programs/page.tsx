@@ -80,7 +80,7 @@ export default function LandingPage() {
             text: "Join",
             href: "/apply",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg?_wi=2",
           imageAlt: "Front view friends high five",
         },
       ]}
