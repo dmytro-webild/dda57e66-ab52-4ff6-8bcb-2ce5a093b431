@@ -66,7 +66,7 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg?_wi=1",
           imageAlt: "Student Success",
         },
         {
