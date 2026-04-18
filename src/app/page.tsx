@@ -80,7 +80,7 @@ export default function LandingPage() {
       metrics={[
         { id: "m1", value: "1+", title: "Students Guided", description: "Successfully supported applicants", imageSrc: "http://img.b2bpic.net/free-photo/badge-icon-front-side_187299-39424.jpg" },
         { id: "m2", value: "3+", title: "Applications Submitted", description: "Global university reach", imageSrc: "http://img.b2bpic.net/free-vector/inhome-daycare-abstract-concept-vector-illustration-inhome-caregiver-service-child-care-housekeeper-help-with-kids-daycare-assistance-early-education-nanny-baby-abstract-metaphor_335657-5906.jpg" },
-        { id: "m3", value: "1+", title: "Offers Received", description: "International scholarship wins", imageSrc: "http://img.b2bpic.net/free-vector/abstract-colorful-logo_1025-60.jpg" }
+        { id: "m3", value: "1+", title: "Offers Received", description: "International scholarship wins", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516238514-r0d4od5a.jpg" }
       ]}
       title="Our Impact"
       description="Evidence of our commitment to student success and community peace."
