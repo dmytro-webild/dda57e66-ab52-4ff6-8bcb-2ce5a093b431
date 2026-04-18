@@ -7,39 +7,31 @@ import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 
-export default function LandingPage() {
+export default function AboutPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-bubble"
         defaultTextAnimation="entrance-slide"
         borderRadius="soft"
+        contentWidth="medium"
+        sizing="medium"
+        background="circleGradient"
+        cardStyle="glass-elevated"
+        primaryButtonStyle="gradient"
+        secondaryButtonStyle="glass"
+        headingFontWeight="normal"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Programs",
-          id: "/programs",
-        },
-        {
-          name: "Stories",
-          id: "/stories",
-        },
-        {
-          name: "Apply",
-          id: "/apply",
-        },
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Programs", id: "/programs" },
+        { name: "Stories", id: "/stories" }
       ]}
       brandName="SSSI"
+      button={{ text: "Apply" }}
     />
   </div>
 
@@ -55,9 +47,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       text="Join our mission to create a brighter, more peaceful future for the youth of South Sudan."
     />
   </div>
@@ -65,14 +55,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="SSSI"
-      leftLink={{
-        text: "Terms of Service",
-        href: "/#",
-      }}
-      rightLink={{
-        text: "Contact Us",
-        href: "/contact",
-      }}
+      leftLink={{ text: "Terms of Service", href: "/#" }}
+      rightLink={{ text: "Contact Us", href: "/contact" }}
     />
   </div>
       </ReactLenis>
