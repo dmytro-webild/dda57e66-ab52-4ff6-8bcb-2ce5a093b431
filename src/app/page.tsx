@@ -48,7 +48,7 @@ export default function LandingPage() {
         { text: "Read Stories", href: "/stories" }
       ]}
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg", imageAlt: "Student Success" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg?_wi=1", imageAlt: "Student Success" },
         { imageSrc: "http://img.b2bpic.net/free-photo/female-student-showing-thumb-up-graduation-gown-looking-cheerful-front-view_176474-51012.jpg", imageAlt: "Community Impact" }
       ]}
       mediaAnimation="blur-reveal"
