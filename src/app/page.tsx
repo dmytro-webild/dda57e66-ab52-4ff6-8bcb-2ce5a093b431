@@ -48,8 +48,8 @@ export default function LandingPage() {
         { text: "Read Stories", href: "/stories" }
       ]}
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg?_wi=1", imageAlt: "Student Success" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/female-student-showing-thumb-up-graduation-gown-looking-cheerful-front-view_176474-51012.jpg", imageAlt: "Community Impact" }
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516688458-xglc7mu8.png", imageAlt: "Student Success" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516679407-f0t1wu1d.jpg", imageAlt: "Community Impact" }
       ]}
       mediaAnimation="blur-reveal"
       rating={5}
@@ -63,9 +63,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       features={[
-        { id: "f1", title: "Scholarship Access", descriptions: ["Expert guidance on university applications and scholarship opportunities."], imageSrc: "http://img.b2bpic.net/free-photo/international-day-education-cartoon-style-with-stack-books_23-2151007467.jpg" },
-        { id: "f2", title: "Mentorship", descriptions: ["One-on-one support for personal growth and academic storytelling."], imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-paper-hands-with-open-notebook_23-2149001173.jpg" },
-        { id: "f3", title: "Peace Advocacy", descriptions: ["Training students to be active leaders in peace and non-violence."], imageSrc: "http://img.b2bpic.net/free-vector/human-people-abstract-logo-design_474888-2042.jpg" }
+        { id: "f1", title: "Scholarship Access", descriptions: ["Expert guidance on university applications and scholarship opportunities."], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516713234-whtti2e7.png" },
+        { id: "f2", title: "Mentorship", descriptions: ["One-on-one support for personal growth and academic storytelling."], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516733809-zyy9kfrm.jpg" },
+        { id: "f3", title: "Peace Advocacy", descriptions: ["Training students to be active leaders in peace and non-violence."], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516757433-1935ai8r.jpg" }
       ]}
       title="What We Do"
       description="Our core pillars guide students from local classrooms to global achievements."
@@ -78,9 +78,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       metrics={[
-        { id: "m1", value: "1+", title: "Students Guided", description: "Successfully supported applicants", imageSrc: "http://img.b2bpic.net/free-photo/badge-icon-front-side_187299-39424.jpg" },
+        { id: "m1", value: "5+", title: "Students Guided", description: "Successfully supported applicants", imageSrc: "http://img.b2bpic.net/free-photo/badge-icon-front-side_187299-39424.jpg" },
         { id: "m2", value: "3+", title: "Applications Submitted", description: "Global university reach", imageSrc: "http://img.b2bpic.net/free-vector/inhome-daycare-abstract-concept-vector-illustration-inhome-caregiver-service-child-care-housekeeper-help-with-kids-daycare-assistance-early-education-nanny-baby-abstract-metaphor_335657-5906.jpg" },
-        { id: "m3", value: "1+", title: "Offers Received", description: "International scholarship wins", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516238514-r0d4od5a.jpg" }
+        { id: "m3", value: "5+", title: "Offers Received", description: "International scholarship wins", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776516238514-r0d4od5a.jpg" }
       ]}
       title="Our Impact"
       description="Evidence of our commitment to student success and community peace."
