@@ -42,7 +42,7 @@ export default function ProgramsPage() {
       useInvertedBackground={true}
       plans={[
         { id: "p1", title: "Scholarship Prep", period: "Full Course", price: "Access", features: ["University research", "Essay drafting", "Interview prep"], button: { text: "Apply", href: "/apply" }, imageSrc: "http://img.b2bpic.net/free-photo/front-view-friends-high-five_23-2148576836.jpg" },
-        { id: "p2", title: "Peace Leadership", period: "Ongoing", price: "Inclusive", features: ["Conflict training", "Civic engagement", "Mentorship"], button: { text: "Join", href: "/apply" }, imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg" }
+        { id: "p2", title: "Peace Leadership", period: "Ongoing", price: "Inclusive", features: ["Conflict training", "Civic engagement", "Mentorship"], button: { text: "Join", href: "/apply" }, imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-ramp_23-2147678211.jpg?_wi=2" }
       ]}
       title="Our Programs"
       description="Detailing our core academic and peace-focused initiatives."
