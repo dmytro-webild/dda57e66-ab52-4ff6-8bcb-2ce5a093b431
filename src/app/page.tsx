@@ -78,9 +78,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       metrics={[
-        { id: "m1", value: "50+", title: "Students Guided", description: "Successfully supported applicants", imageSrc: "http://img.b2bpic.net/free-photo/badge-icon-front-side_187299-39424.jpg" },
-        { id: "m2", value: "10+", title: "Applications Submitted", description: "Global university reach", imageSrc: "http://img.b2bpic.net/free-vector/inhome-daycare-abstract-concept-vector-illustration-inhome-caregiver-service-child-care-housekeeper-help-with-kids-daycare-assistance-early-education-nanny-baby-abstract-metaphor_335657-5906.jpg" },
-        { id: "m3", value: "5+", title: "Offers Received", description: "International scholarship wins", imageSrc: "http://img.b2bpic.net/free-vector/abstract-colorful-logo_1025-60.jpg" }
+        { id: "m1", value: "1+", title: "Students Guided", description: "Successfully supported applicants", imageSrc: "http://img.b2bpic.net/free-photo/badge-icon-front-side_187299-39424.jpg" },
+        { id: "m2", value: "3+", title: "Applications Submitted", description: "Global university reach", imageSrc: "http://img.b2bpic.net/free-vector/inhome-daycare-abstract-concept-vector-illustration-inhome-caregiver-service-child-care-housekeeper-help-with-kids-daycare-assistance-early-education-nanny-baby-abstract-metaphor_335657-5906.jpg" },
+        { id: "m3", value: "1+", title: "Offers Received", description: "International scholarship wins", imageSrc: "http://img.b2bpic.net/free-vector/abstract-colorful-logo_1025-60.jpg" }
       ]}
       title="Our Impact"
       description="Evidence of our commitment to student success and community peace."
@@ -94,7 +94,7 @@ export default function LandingPage() {
       tag="Connect With Us"
       title="Your journey starts here."
       description="Join our network or partner with us to drive transformation."
-      imageSrc="http://img.b2bpic.net/free-photo/group-serious-managers-morning-briefing_74855-4277.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CWsLWfBQ7Y7pDUYXmFpggX5vY1/uploaded-1776512944234-c0p5d2r2.jpg"
       mediaAnimation="blur-reveal"
     />
   </div>
